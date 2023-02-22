@@ -1,0 +1,208 @@
+.right-container
+{
+    /* background-color: yellow; */
+    flex: 1.2;
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0.5rem;
+    padding-top: 30px;
+    height: 100vh;
+   overflow-y: auto;
+}
+.brand-name
+{
+  
+  
+  font-size: 1.2rem;
+  color: rgb(129, 128, 128);
+}
+.title
+{
+    text-transform: capitalize;
+}
+.special-offer
+{
+    text-transform: capitalize;
+    color: rgb(3, 163, 3);
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.price-holder
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-items: flex-end;
+}
+.actual-price
+{
+    text-decoration: line-through;
+    color: gray;
+    padding-bottom: 3px;
+    font-weight: bold;
+    
+}
+.offer
+{
+    color: rgb(3, 173, 3);
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+.rating-holder
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0px;
+}
+.rate
+{
+    display: inline-block;
+   /* width: 30px; */
+   padding: 5px 10px;
+   background-color: green; 
+   color: white;
+   border-radius: 10px;
+   font-weight: bold;
+   
+
+}
+/* #star
+{
+    color: white;
+} */
+.rating-count
+{
+    color: rgb(115, 114, 114);
+    font-weight: bold;
+}
+.assured-img
+{
+    height: 25px;
+}
+.offer-holder
+{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.each-offer
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1rem;
+}
+.each-offer img
+{
+    width: 25px;
+    /* height: 20px; */
+}
+.below-offer
+{
+    display: flex;
+    padding-top: 10px;
+}
+.first
+{
+    flex: 1;
+    /* background-color: yellowgreen; */
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0rem;
+    color: rgb(97, 95, 95);
+}
+.first img
+{
+    width: 40px;
+    height: 30px;
+}
+.second
+{
+    flex: 1;
+    /* background-color: pink; */
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0rem;
+    justify-content: space-between;
+}
+.services
+{
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+}
+.cod
+{
+    padding-right: 10px;
+    font-size: 14px;
+    color: black;
+}
+.input-box
+{
+    display: flex;
+
+
+}
+.input-box .box input
+{
+   background-color: transparent;  
+   border: none;
+   border-bottom: 2px solid gray;
+   outline: none;
+   padding: 10px 5px;
+}
+.input-box .box button
+{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: transparent;  
+    font-weight: bold;
+
+}
+.input-box .box button:hover
+{
+    background-color: lightgrey;
+}
+.extra
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+.super-coin-img
+{
+    height: 100px;
+    width: 100%;
+}
+.description
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+}
+.toggle
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px 10px 0px;
+    height: 60px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+}
+.description p{
+    font-size: 17px;
+    line-height: 20px;
+    word-spacing: 7px;
+}

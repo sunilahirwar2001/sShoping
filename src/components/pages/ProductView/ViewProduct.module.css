@@ -1,0 +1,26 @@
+.product-view-conatiner
+{
+   width: 100%;
+   min-height: 100vh;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 32px;
+}
+.product-container
+{
+    width: 1200px;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    
+}
+@media (max-width:700px)
+{
+    .product-container
+    {
+        flex-direction: column;
+    } 
+}

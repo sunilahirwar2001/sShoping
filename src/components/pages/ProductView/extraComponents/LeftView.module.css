@@ -1,0 +1,59 @@
+.left-container
+{
+    flex: 1;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    
+}
+.img
+{
+    flex: 3;
+    background-color: aqua;
+    width:250px;
+    height:150px;
+    margin: auto;
+    padding-top: 25px;
+
+    background-color: transparent;
+}
+.actions-container
+{
+    flex: 1;
+    text-transform: uppercase;
+    display: flex;
+    padding: 10px 15px;
+    gap: 10px;
+    align-items: flex-start;
+
+}
+.actions-container button
+{
+    /* border-radius: 15px; */
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.add-to-cart
+{
+    padding: 15px;
+    flex: 1;
+    background-color: rgba(255, 68, 0, 0.826);
+}
+.buy-now
+{
+    padding: 15px;
+    flex: 1;
+    background-color: orange;
+}
+@media (max-width:823px)
+{
+    .actions-container button
+    {
+        font-size: 0.9rem;
+    }
+}

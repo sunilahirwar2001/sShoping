@@ -1,0 +1,141 @@
+.cart-list
+{
+    height: 170px;
+    width: 100%;
+    /* background-color: yellow; */
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    align-items: stretch;
+
+}
+.img-container
+{
+   flex: 1; 
+   /* background-color: aquamarine; */
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   
+
+}
+.img-container img
+{
+    height: 100%;
+   width: 100px;
+ 
+   margin: auto;
+}
+.product-details
+{
+    flex: 2;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.title
+{
+    /* background-color: red; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.unit-price
+{
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+}
+.controls
+{
+    /* background-color: pink; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.controls .inc,.controls .dec
+{
+    width: 60px;
+    padding: 5px;
+    background-color: rgb(213, 210, 210);
+    /* border: none;
+    outline: none; */
+    /* border: 1px solid rgb(213, 210, 210) ; */
+}
+.controls .quantity
+{
+    color: rgb(80, 79, 79);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.controls div
+{
+    display: flex;
+    align-items: center;
+}
+.controls div .quan
+{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 4px;
+    background-color: white;
+}
+.price-holder
+{
+    flex: 1;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative;
+    z-index: 0; */
+}
+.remove-btn
+{
+    background-color: darkgray;
+    padding: 5px 10px;
+    /* position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 0; */
+}
+#fa-circle-minus
+{
+    background-color: red;
+}
+@media (max-width:520px)
+{
+    .controls .inc,.controls .dec
+{
+    width: 30px;
+    padding: 5px;
+    background-color: rgb(213, 210, 210);
+    
+}
+.controls div .quan
+{
+    width: 50px;
+}
+.title
+{
+    font-size: 14px;
+}
+.price-holder h2
+{
+    font-size: 17px;
+}
+.remove-btn
+{
+    font-size: 12px;
+    padding:   6px;
+}
+}

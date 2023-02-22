@@ -1,0 +1,161 @@
+.filter-container
+{
+    /* background-color: rgb(193, 176, 176); */
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+    flex: 1;
+    /* border: 2px solid gray; */
+    /* padding: 10px; */
+    background-color: aliceblue;
+    padding-top: 20px;
+    
+   
+}
+
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    
+    flex: 1;
+    padding-top: 20px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+    padding: 5px 10px;
+    padding-right: 20px;
+   
+    
+}
+.first-child
+{
+    /* flex: 1; */
+    width: 45%;
+    font-size: 1.1rem;
+    /* justify-self: flex-end; */
+    /* background-color: red; */
+    text-align: center;
+    
+}
+.last-child
+{
+    /* flex: 1; */
+    width: 55%;
+    padding: 7px 5px;
+    /* padding: 10px; */
+    border: 2px solid lightgray;
+    outline: 2px solid gray;
+    /* border-radius: 10px; */
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 3px 2px gray;
+}
+.last-child option
+{
+    font-size: 16px;
+    margin: 5px;
+    display: inline-block;
+    color: gray;
+}
+.clear
+{
+    flex: 1;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.apply
+{
+    flex: 1;
+    padding: 10px;
+    background-color: rgb(7, 57, 220);
+    color: white;
+    font-weight: bold;border-radius: 10px;
+    border: none;
+    outline: none;
+}
+@media (max-width:1020px)
+{
+
+    .filter-container
+    {
+        flex: none;
+        flex-direction: column;
+        background-color: rgb(191, 213, 233);
+    }
+    .box{
+        flex-direction: row;
+        padding-top: 0px;
+        align-items: stretch;
+        justify-content: stretch;
+        border-bottom: 1px solid gray;
+        padding-bottom: 5px;
+        gap: 5px;
+    }
+    .row{
+        flex-direction: row;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+    }
+    .clear{
+        padding: 7px 0px;
+        font-size: 0.7rem;
+    }
+    .apply
+    {
+        padding: 7px 0px;
+        font-size: 0.7rem;
+    }
+    .last-child
+    {
+        margin: 0px;
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+
+}
+@media (max-width:534px)
+{
+    .box{
+        justify-content: auto;
+        align-items: auto;
+        padding: 0.5rem;
+    }
+   .row
+   {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 3px;
+    padding-right: 0px;
+   } 
+   .first-child
+   {
+    /* background-color: red; */
+    width: 100%;
+    
+   }
+   .last-child
+   {
+    /* justify-self: stretch;
+    align-self: stretch; */
+    width: 100%;
+   }
+}

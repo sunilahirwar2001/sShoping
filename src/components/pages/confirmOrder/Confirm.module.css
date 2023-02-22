@@ -1,0 +1,29 @@
+.confirm-holder
+{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(247, 245, 245); */
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.holder
+{
+ max-width: 1000px;
+ /* height: 100vh; */
+ background-color: azure;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 1rem;
+}
+
+.holder a
+{
+    padding: 7px 1rem;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}

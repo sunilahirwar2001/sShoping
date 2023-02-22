@@ -1,0 +1,26 @@
+.pagination-holder
+{
+    display: flex;
+    
+    background-color: rgb(252, 247, 247);
+    height: 40px;
+    /* width: 100%; */
+    grid-column: 1/-1;
+    
+    
+   
+}
+.pagination-holder button
+{
+    padding: 5px 1rem;
+}
+.disabled-prev
+{
+    pointer-events: none;
+    opacity: 0.5;
+}
+.disabled-next
+{
+    pointer-events: none;
+    opacity: 0.5;
+}

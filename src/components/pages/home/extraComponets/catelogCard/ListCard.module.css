@@ -1,0 +1,47 @@
+.card-container
+{
+  width: 190px;
+  height: 250px;
+  /* background-color: rgb(145, 136, 136);  */
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  /* background-color: rgb(215, 234, 251); */
+  padding-top: 10px;
+  box-shadow: 4px 4px 10px lightgray, -4px -4px 10px lightgray;
+  cursor: pointer;
+  text-decoration: none;
+}
+.img
+{
+    flex: 3;
+    width: 170px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        /* object-fit: cover; */
+    /* border-bottom: 1px solid gray; */
+    
+}
+.title
+{
+    flex: 0.5;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    
+    text-align: center;
+}
+.shop-now
+{
+    flex: 0.5;
+    font-size: 0.8rem;
+    color: green;
+    font-weight: bold;
+}
+.more
+{
+    flex: 0.5;
+}

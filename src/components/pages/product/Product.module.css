@@ -1,0 +1,19 @@
+.products-container
+{
+    padding-top: 30px;
+    min-height: 100vh;
+    /* max-height: auto; */
+    width: 100%;
+    background-color: rgb(240, 240, 237);
+    display: flex;
+    gap: 10px;
+    
+
+}
+@media (max-width:1020px)
+{
+    .products-container
+    {
+        flex-direction: column;
+    }
+}

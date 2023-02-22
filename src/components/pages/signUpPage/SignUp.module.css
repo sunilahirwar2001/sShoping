@@ -1,0 +1,34 @@
+.login-container
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(207, 221, 233);
+     display: flex; 
+    align-items: center;
+     justify-content: center; 
+    padding-top: 50px;
+}
+.log-holder
+{
+   width: 700px;
+   height: 550px;
+   background-color: aqua;
+   margin: auto;
+   display: flex;
+   /* border-radius: 10px;
+   overflow:hidden; */
+}
+@media (max-width:707px)
+{
+    .log-holder
+    {
+        min-height: 100vh;
+    }
+}
+@media (max-width:609px)
+{
+    .log-holder
+    {
+        flex-direction: column;
+    }
+}

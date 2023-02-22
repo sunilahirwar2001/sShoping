@@ -1,0 +1,95 @@
+.address-box
+{
+    width: 100%;
+    /* background-color: rgb(217, 213, 213); */
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.address-box form
+{
+    display: flex;
+    flex-direction: column;
+}
+.heading
+{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+.address-box form .row
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+.row-ud
+{
+    border-bottom: 1px solid gray;
+}
+.first1
+{
+    /* max-width: 150px; */
+    flex: 0.5;
+    text-align: center;
+    font-size: 19px;
+
+}
+.second
+{
+    flex: 1;
+    /* max-width: 550px; */
+    /* flex: 1; */
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    /* width: 400px; */
+}
+.action-controls
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+    
+}
+.cancel
+{
+   flex: 1; 
+   /* padding: 10px 5px; */
+   border: none;
+   outline: none;
+   background-color: red;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   padding: 1rem 0.5rem;
+   border-radius: 37px;
+}
+.confirm
+{
+    flex: 1;
+    padding: 10px 5px; border: none;
+    outline: none;
+    background-color: rgb(3, 189, 93);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width:516px)
+{
+   .action-controls
+   {
+    width: 100%;
+   } 
+   .first
+   {
+    font-size: 14px;
+   }
+   
+}

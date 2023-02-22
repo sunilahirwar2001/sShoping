@@ -1,0 +1,39 @@
+.left-side
+{
+    flex: 0.8;
+    border-right: 2px solid gray;
+    background-color: rgb(13, 117, 244);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 0.5rem 1.8rem;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-top: 6rem;
+}
+.login-text
+{
+    color:white
+}
+.text{
+    color: white;
+    font-size: 1.2rem;
+    text-transform:capitalize;
+}
+.img-holder
+{
+
+}
+img
+{
+    width: 150px;
+    background-color: transparent;
+}
+@media (max-width:609px)
+{
+    .left-side
+    {
+        gap: 10px;
+        flex: none;
+    }
+}

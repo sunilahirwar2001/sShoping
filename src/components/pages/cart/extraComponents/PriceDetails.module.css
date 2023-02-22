@@ -1,0 +1,39 @@
+.price-details
+{
+    
+    /* background-color: rgb(164, 163, 163); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.price-heading
+{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.row-payment
+{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.row-payment button
+{
+    background-color: rgb(3, 85, 93);
+    text-decoration: none;
+    padding: 15px 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
